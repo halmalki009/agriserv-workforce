@@ -674,8 +674,7 @@ st.markdown("<hr style='margin-top:8px; margin-bottom:22px;'>", unsafe_allow_htm
 # =========================
 # المسارات والثوابت
 # =========================
-DATA_DIR = Path(__file__).parent / "data"
-DATA_PATH = next(DATA_DIR.glob("*.xlsx"))
+DATA_PATH = Path(__file__).parent / "employee_cost_data.xlsx"
 ARABIC_NUM_FORMAT = "{:,.0f}"
 
 RENAME_MAP = {
